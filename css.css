@@ -1,0 +1,44 @@
+:root {
+  --c1: #000; --c2: #FF0000; --c3: gray;
+  --f: 'Inter', sans-serif;
+}
+body {
+  font-family: var(--f);
+  background: var(--c1);
+  color: var(--c2);
+  text-align: center;
+  text-shadow: 2px 2px 10px var(--c2);
+  margin: 0;
+}
+h1, textarea, .output {
+  color: var(--c2);
+}
+textarea, .output {
+  width: 80%;
+  background: var(--c1);
+  border: 2px solid var(--c3);
+}
+textarea {
+  height: 100px;
+  font-size: 5rem;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.output {
+  font-size: 2rem;
+  padding: 20px;
+  border-radius: 10px;
+}
+.bottom-right {
+  text-shadow: 2px 2px 10px rgb(0, 0, 255);
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: rgba(0, 0, 0, 0.7);
+  color: #0000ff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  z-index: 999;
+}
+  
